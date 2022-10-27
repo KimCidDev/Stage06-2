@@ -41,11 +41,6 @@ body * {
   color: var(--main-font-color);
 }
 
-button {
-  background-color: var(--primary-color);
-
-}
-
 #app {
   max-width: 50rem;
 
@@ -59,6 +54,44 @@ header {
   justify-content: space-between;
 }
 
-label {
-  display: none;
+header h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
 }
+
+.searchBar {
+  display: flex;
+  align-items: center;
+}
+
+.searchBar input {
+  height: 3.2rem;
+  border: 1px solid #ccc;
+  border-radius: .4rem 0 0 .4rem;
+  padding: 0 .8rem;
+}
+
+
+.searchBar button {
+  height: 3.2rem;
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 0 .4rem .4rem 0;
+  padding: 0 1rem;
+}
+
+.searchBar button:hover {
+  cursor: pointer;
+  filter: brightness(1.1);
+}
+
+table {
+  width: 100%;
+}
+
+table * {
+  font-size: 1.4rem;
+  color: var(--main-font-color);
+}
+
+
