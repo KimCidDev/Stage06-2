@@ -6,5 +6,36 @@
 
 :root {
   font-size: 62.5%;
+
+  /*COLORS*/
+  --main-font-color: #303030;
+  --hue: 194;
+  --primary-color: hsl(var(--hue), 100%, 63%);
+
+  /*FONTS*/
+
+  --main-font: 'Poppins', sans-serif;
+
 }
 
+body {
+  font-size: 1.6rem;
+  background-color: rgb(226, 237, 211);
+}
+
+body * {
+  font-family: var(--main-font);
+  color: var(--main-font-color);
+}
+
+button {
+  background-color: var(--primary-color);
+
+}
+
+#app {
+  max-width: 50rem;
+
+  margin: 0 auto;
+  padding: 2rem;
+}
