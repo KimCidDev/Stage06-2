@@ -44,7 +44,7 @@ body * {
 #app {
   max-width: 50rem;
 
-  margin: 0 auto;
+  margin: 0 auto; /*unecessary*/
   padding: 2rem;
 }
 
@@ -92,6 +92,18 @@ table {
 table * {
   font-size: 1.4rem;
   color: var(--main-font-color);
+}
+
+table th {
+  background: var(--primary-color);
+}
+
+td.user img {
+  width: 5rem;
+  height: 5rem;
+
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 
