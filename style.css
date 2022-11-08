@@ -5,11 +5,11 @@
 }
 
 :root {
-  font-size: 62.5%;
+  font-size: 62.5%; /*Default value for font-size on web browsers is 16px. This makes it 10px, so rem can be used normally*/
 
   /*COLORS*/
   --main-font-color: #303030;
-  --hue: 194;
+  --hue: 147;
   --primary-color: hsl(var(--hue), 100%, 63%);
   --table-even: hsl(var(--hue), 89%, 79%);
   --background-main: rgb(226, 237, 211);
@@ -20,7 +20,7 @@
 
 }
 
-.srOnly {
+ .srOnly { /*screen reader only */
   position: absolute;
   width: 1px;
   height: 1px;
@@ -169,6 +169,7 @@ td .remove {
   border: 1px solid #000;
   border-radius: 25%;
   padding: 0.1rem 0.30rem;
+  cursor: pointer;
 }
 
 
